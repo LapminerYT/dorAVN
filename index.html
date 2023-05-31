@@ -1,9 +1,34 @@
-<script>
-// Simulate a mouse click:
 
-window.location.href = "/web/index.html";
+<html>
 
-// Simulate an HTTP redirect:
+   <head>
 
-window.location.replace("/web/index.html");
-  </script>
+      <script type="text/javascript">
+
+         <!--
+
+            function Redirect() {
+
+               window.location="/web/";
+
+            }
+
+         //-->
+
+      </script>
+
+   </head>
+
+   <body>
+
+      <p>Click the following button, you will be redirected to home page.</p>
+
+      <form>
+
+         <input type="button" value="Redirect Me" onclick="Redirect();" />
+
+      </form>
+
+   </body>
+
+</html>
